@@ -1,0 +1,16 @@
+# Obsidian workspace settings
+.obsidian/workspace*
+.obsidian/workspaces.json
+
+# Obsidian cache
+.obsidian/cache
+.obsidian/graph.json
+
+# Local plugin data
+.obsidian/plugins/*/data.json
+
+# Mac system files
+.DS_Store
+
+# Node / dev stuff (future-proof)
+node_modules
