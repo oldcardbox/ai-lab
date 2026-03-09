@@ -1,4 +1,10 @@
-# Obsidian workspace settings
+# macOS system files
+.DS_Store
+
+# Node / development
+node_modules
+
+# Obsidian workspace state
 .obsidian/workspace*
 .obsidian/workspaces.json
 
@@ -6,13 +12,10 @@
 .obsidian/graph.json
 
 # Obsidian cache
-.obsidian/cache
+.obsidian/cache/
 
-# Local plugin data
+# Ignore plugin runtime data
 .obsidian/plugins/*/data.json
 
-# Mac system files
-.DS_Store
-
-# Node / dev stuff
-node_modules
+# Ignore plugin temporary state
+.obsidian/plugins/*/.DS_Store
